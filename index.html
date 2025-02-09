@@ -13,34 +13,20 @@
   <body>
 
     <!--Barra de navegação-->
-    <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand">BiblioTEC</a>
-        <form class="form-inline">
+    <nav class="navbar navbar-light bg-light"
+    style="padding: 20px;">
+        <a class="navbar-brand"
+        style="margin: 0 auto;"><img src="/imagens/logo.png" alt="logo" ></a>
+        <form class="form-inline" style="margin: 0 auto;">
           <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
         </form>
     </nav>
     <!-- Fim da Barra de navegação-->
-    
-    <!--Nav-->
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Ação</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Comedia</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Romance</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Suspense</a>
-        </li>
-      </ul>
-    <!--Nav-->
+
     <!--Carrossel-->
     <div class="carrossel">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width: 80%; margin-top: 30px; margin: 0 auto;">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width: 100%; margin-top: 30px; margin: 0 auto;">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -68,12 +54,86 @@
       </div>
     </div>
     <!-- Fim Carrossel-->
+    
+      
+
+    <!--livros-->
+    <div class="livro" style="width: 80%; margin: 0 auto;">
+      
+    </div><!--fim da div livros-->
+    
+    <br><hr><br>
+   
+    <div id="carouselOffers" class="carousel slide" data-bs-ride="carousel" style="padding: 20px;">
+      <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="height: 10%;">
+              <div class="d-flex justify-content-center align-items-center">
+                  <div class="text-center">
+                      <img src="imagens/livro1.jpg" class="rounded-circle" alt="Cupons" height="250px">
+                      <p>Cupons</p>
+                  </div>
+                  <div class="text-center">
+                      <img src="imagens/livro2.jpg" class="rounded-circle" alt="Despensa Cheia" height="250px">
+                      <p>Despensa Cheia</p>
+                  </div>
+                  <div class="text-center">
+                      <img src="imagens/livro3.jpg" class="rounded-circle" alt="Repelente" height="250px">
+                      <p>Repelente</p>
+                  </div>
+                  <div class="text-center">
+                      <img src="imagens/livro1.jpg" class="rounded-circle" alt="Doces e Snacks" height="250px">
+                      <p>Doces e Snacks</p>
+                  </div>
+              </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+              <div class="d-flex justify-content-center align-items-center">
+                  <div class="text-center">
+                      <img src="imagens/livro1.jpg" class="rounded-circle" alt="Destilados" height="250px">
+                      <p>Destilados</p>
+                  </div>
+                  <div class="text-center">
+                      <img src="imagens/livro2.jpg" class="rounded-circle" alt="Protetor Solar" height="250px">
+                      <p>Protetor Solar</p>
+                  </div>
+                  <div class="text-center">
+                      <img src="imagens/livro3.jpg" class="rounded-circle" alt="Para o Seu Cabelo" height="250px">
+                      <p>Para o Seu Cabelo</p>
+                  </div>
+                  <div class="text-center">
+                      <img src="imagens/livro1.jpg" class="rounded-circle" alt="Outros" height="250px">
+                      <p>Outros</p>
+                  </div>
+              </div>
+          </div>
+      </div>
   
+      <!-- Botões de controle -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselOffers" data-bs-slide="prev" style="border: none; background-color: rgba(0, 0, 0, 0); cursor: pointer;">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselOffers" data-bs-slide="next" style="border: none;background-color: rgba(0, 0, 0, 0); cursor: pointer;">
+        <span class="carousel-control-next-icon" aria-hidden="true" style="color: black;"></span>
+    </button>
+  </div>
+  
+
+    <footer class="container" style="background-color: rgba(234, 240, 240, 0); height: 100px; width: 100%; padding: 30px;">
+      <p class="float-right"><a href="#">Voltar para o início</a></p>
+      <p>IFRN JC - 2025. · <a href="#">PRIVACIDADE</a> · <a href="#">TERMOS DE USO</a></p>
+    </footer>
+
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
   </body>
 </html>
